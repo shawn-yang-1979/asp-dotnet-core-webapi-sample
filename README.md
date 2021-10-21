@@ -7,7 +7,7 @@ This is a sample project for web api development with dotnet core.
 * Install Windows Terminal: https://docs.microsoft.com/en-us/windows/terminal/get-started#install
 * Install VS Code: https://code.visualstudio.com/
 * Install VS Code Remote Development Extension Pack: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
-# Process
+# Process of making this sample from scratch
 ## Opening a WSL 2 folder in a container: 
 Reference: https://code.visualstudio.com/docs/remote/wsl#_advanced-opening-a-wsl-2-folder-in-a-container  
 Notes:

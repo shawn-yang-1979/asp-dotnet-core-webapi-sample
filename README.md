@@ -7,8 +7,8 @@ This is a sample project for web api development with dotnet core.
 * Install Windows Terminal: https://docs.microsoft.com/en-us/windows/terminal/get-started#install
 * Install VS Code: https://code.visualstudio.com/
 * Install VS Code Remote Development Extension Pack: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
-# Process of making this sample from scratch
-## Opening a WSL 2 folder in a container: 
+## Process of making this sample from scratch
+### Opening a WSL 2 folder in a container: 
 Reference: https://code.visualstudio.com/docs/remote/wsl#_advanced-opening-a-wsl-2-folder-in-a-container  
 Notes:
 * Use "C# (.NET) and MS SQL" devcontainer
@@ -37,4 +37,4 @@ You will see.
 This is done by the docker compose setting `network_mode: service:db` in the file `./.devcontainer/docker-compose.yml`.  
 Here are some reference:
 * https://github.com/docker/docker.github.io/issues/9725#issuecomment-761832882
-## New a webapi project
+### New a webapi project

@@ -20,7 +20,7 @@ IMAGE                                            STATUS             PORTS      N
 asp-dotnet-core-webapi-sample_devcontainer_app   Up About an hour              asp-dotnet-core-webapi-sample_devcontainer_app_1
 mcr.microsoft.com/mssql/server:2019-latest       Up About an hour   1433/tcp   asp-dotnet-core-webapi-sample_devcontainer_db_1
 ```
-In addition, these 2 containers are sharing the same network stack.
+In addition, these 2 containers are sharing the same network stack.  
 The db is using a bridge network.  
 Try `docker inspect asp-dotnet-core-webapi-sample_devcontainer_db_1 | grep NetworkMode`.  
 You will see.
@@ -29,7 +29,7 @@ You will see.
 ```
 The db is using the bridge network `asp-dotnet-core-webapi-sample_devcontainer_default`.  
 And the app is sharing the network stack of the db.  
-Try `docker inspect asp-dotnet-core-webapi-sample_devcontainer_app_1 | grep NetworkMode`
+Try `docker inspect asp-dotnet-core-webapi-sample_devcontainer_app_1 | grep NetworkMode`  
 You will see.
 ```
 "NetworkMode": "container:f8f17300cc111a8a095da97a872a800b1fb0a330229a556ce8eeeeaf65155a58"

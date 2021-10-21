@@ -11,6 +11,7 @@ This is a sample project for web api development with dotnet core.
 ## Opening a WSL 2 folder in a container: 
 Reference: https://code.visualstudio.com/docs/remote/wsl#_advanced-opening-a-wsl-2-folder-in-a-container  
 Notes:
-* Use "C# (.NET) and MS SQL" devcontainer  
+* Use "C# (.NET) and MS SQL" devcontainer
+
 You will get a containerized dev environment and your VS code showing on your Windows OS is actually connecting to the dev container and using the environment there.
 ## New a webapi project

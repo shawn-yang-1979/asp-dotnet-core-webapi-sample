@@ -9,7 +9,7 @@ This is a sample project for web api development with dotnet core.
 * Install VS Code Remote Development Extension Pack: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack
 # Process
 ## Opening a WSL 2 folder in a container: 
-Reference: https://code.visualstudio.com/docs/remote/wsl#_advanced-opening-a-wsl-2-folder-in-a-container
+Reference: https://code.visualstudio.com/docs/remote/wsl#_advanced-opening-a-wsl-2-folder-in-a-container  
 Notes:
 * Use "C# (.NET) and MS SQL" devcontainer
 ## New a webapi project
